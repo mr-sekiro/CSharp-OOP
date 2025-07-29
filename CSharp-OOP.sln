@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Classes-and-Objects", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Access-Modifiers", "02_Access-Modifiers\02_Access-Modifiers.csproj", "{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Static-Members", "03_Static-Members\03_Static-Members.csproj", "{E19EC603-082A-4F51-96E4-B46012A8979F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19EC603-082A-4F51-96E4-B46012A8979F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19EC603-082A-4F51-96E4-B46012A8979F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19EC603-082A-4F51-96E4-B46012A8979F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19EC603-082A-4F51-96E4-B46012A8979F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
