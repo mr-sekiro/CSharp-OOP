@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Classes-and-Objects", "01_Classes-and-Objects\01_Classes-and-Objects.csproj", "{DA3EAF59-C6D8-4ED0-9E73-BED53C37C1DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Access-Modifiers", "02_Access-Modifiers\02_Access-Modifiers.csproj", "{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DA3EAF59-C6D8-4ED0-9E73-BED53C37C1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3EAF59-C6D8-4ED0-9E73-BED53C37C1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3EAF59-C6D8-4ED0-9E73-BED53C37C1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E347B7-8469-41A3-8E6D-E473C69FEF2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
