@@ -1,0 +1,73 @@
+//******************************** 1 Encapsulation ********************************//
+
+Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates. In a different way, encapsulation is a protective shield that prevents the data from being accessed by the code outside this shield.
+
+Encapsulation is defined as the process of enclosing one or more items within a physical or logical package'. Encapsulation, in object oriented programming methodology, prevents access to implementation details.
+
+Encapsulation is implemented by using access specifiers. An access specifier defines the scope and visibility of a class member. C# supports the following access specifiers ?
+
+Public
+Private
+Protected
+Internal
+Protected internal
+
+
+
+//******************************** 2 Abstraction ********************************//
+Abstraction is an important part of object oriented programming. It means that only the required information is visible to the user and the rest of the information is hidden.
+It is the process of hiding the complex implementation details and only exposing the necessary parts of an object or system to the user.
+It Allows us to define what an object does without needing to know how it does it.
+
+//******************************** 3 Inheritance ********************************//
+It allows a class (called a derived class or child class) to inherit members like properties, methods, fields and behaviors from another class (called the base class or parent class).
+
+inheritance allows us to create a new class from an existing class. It is a key feature of Object-Oriented Programming (OOP).
+
+In C#, it is possible to inherit fields and methods from one class to another. We group the "inheritance concept" into two categories:
+
+Derived/Sub Class (child) - the class that inherits from another class
+Base/Super Class (parent) - the class being inherited from
+To inherit from a class, use the : symbol.
+
+The class from which a new class is created is known as the base class (parent or superclass or base class ). And, the new class is called derived class (child or subclass or derived class)
+
+The derived class inherits the fields and methods of the base class. This helps with the code reusability in C#.
+
+-> is-a relationship <-
+In C#, inheritance is an is-a relationship. We use inheritance only if there is an is-a relationship between two classes. For example,
+
+Employee is a Person
+We can derive Employee from Person class.
+
+What can you inherit?
+you can only inherit the public and protected members, private members are not inherited.
+
+----> Types of inheritance:
+
+1. Single Inheritance: a single derived class inherits from a single base class.
+
+2. Multilevel Inheritance: a derived class inherits from a base and then the same derived class acts as a base class for another class.
+
+3. Hierarchical Inheritance: multiple derived classes inherit from a single base class.
+
+4. Multiple Inheritance: a single derived class inherits from multiple base classes. C# doesn't support multiple inheritance. However, we can achieve multiple inheritance through interfaces.
+
+5. Hybrid Inheritance: a combination of two or more types of inheritance. The combination of multilevel and hierarchical inheritance is an example of Hybrid inheritance.
+
+Note: it does not support hybrid inheritance that contains multiple inheritance.
+
+
+//******************************** 4 Polymorphism********************************//
+Polymorphism in C# refers to the ability of an object to take on multiple forms, i.e., objects of different types can be treated as objects of a common base type.
+
+C# supports two types of polymorphism:
+
+compile-time polymorphism (also known as method overloading) : Method overloading allows multiple methods to have the same name, but with different parameters. 
+The compiler selects the appropriate method to call based on the number, types, and order of the parameters.
+
+Runtime polymorphism (also known as method overriding): Method overriding allows a subclass to provide a specific implementation of a method that is already provided by its parent class.
+The method in the subclass must have the same signature (name, return type, and parameters) as the method in the parent class.
+
+
+inheritance is also a form of polymorphism known as "subtyping" or "subtype polymorphism".
