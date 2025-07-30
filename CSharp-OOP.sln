@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Properties", "04_Propert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Constructor-and-Destructor", "05_Constructor-and-Destructor\05_Constructor-and-Destructor.csproj", "{89BB8834-04D6-4C27-83D3-149D2F31D47B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Inhertance", "06_Inhertance\06_Inhertance.csproj", "{4BFB81A3-6EC9-4D28-AA18-07AD5FD54346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{89BB8834-04D6-4C27-83D3-149D2F31D47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BB8834-04D6-4C27-83D3-149D2F31D47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BB8834-04D6-4C27-83D3-149D2F31D47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFB81A3-6EC9-4D28-AA18-07AD5FD54346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB81A3-6EC9-4D28-AA18-07AD5FD54346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFB81A3-6EC9-4D28-AA18-07AD5FD54346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB81A3-6EC9-4D28-AA18-07AD5FD54346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
